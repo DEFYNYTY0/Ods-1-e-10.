@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.rodape{
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-image: linear-gradient( rgb(53, 53, 117),white);
+}
+#logo{
+    width: 200px;
+    height: 100px;
+}
+
+nav{
+    width: 35%;
+    /* background-color: rgb(160, 160, 197); */
+}
+.uli{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    list-style: none;
+   
+    
+}
+
+a{
+    color: white;
+     transition: 1s;
+}
+a:hover{
+    color: khaki;
+}
+
+.inicio{
+    width: auto;
+    height: auto;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#duvida{
+  width: 200px;
+  height: 250px;
+}
+
+.texto-um{
+    width: 60%;
+    height: 80%;
+    /* background-color: rgb(48, 35, 15); */
+
+}
+.h1{
+    color: black;
+    padding: 15px;
+    font-size: 40px
+}
+h2{
+    padding: 20px;
+}
+
+.lista{
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    /* background-color: blueviolet; */
+    font-size: 25px;
+    margin: 15px;
+}
+
+#duvida-dois{
+    width: 300px;
+    height: 350px;
+    
+}
+
+.inicio-dois{
+    width: 80%;
+    height: 380px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.oque-ods{
+    width: 60%;
+    height: 80%;
+    /* background-color: rgb(48, 35, 15); */
+  margin: 30px;
+  font-size: 20px;
+  padding: 10px;
+
+}
+
+.oque-ods-h1{
+    font-size: 25px;
+}
+
+
+
+.img-ods{
+    width: 300px;
+    height: 300px;
+    left: 80px;
+    padding: 15px;
+
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 60px   ;
+    /* background-color: rgb(46, 46, 90); */
+    background-image: linear-gradient(white, rgb(53, 53, 117));
+}
+.logo-final{
+    width: 100px;
+    height: 50px;
+}
+
+.final{
+    font-size: 15px;
+    color: white;
+}
+
+.video-fazendo{
+ 
+    width: 650px;
+    height: 500px;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid white;
+    /* margin: 10px; */
+}
+.video-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: rgb(35, 48, 158);
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 15px;
+    filter: drop-shadow( 4px 3px 2px #50598a);
+    cursor: pointer;
+    color: white;
+}
+button:hover{
+    background-color: #020094;
+    filter: drop-shadow(0px 3px 4px #0f3f6b);
+    
+}
+
+.link-botao{
+    color: white;
+}
